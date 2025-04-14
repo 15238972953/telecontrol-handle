@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: peng defeng, hxcx, LIC=8MZI6-DA6JY-LVT1I-TJ7HH-87HGP-P5RZA
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.35.0.2
+Toolchain Path:  D:\keil\new install\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.35.0.2
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.33.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\electronic\Ò£¿ØÊÖ±ú\Èí¼þ\telecontrol-handle\USER\Template.uvprojx
+Project File Date:  06/22/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\keil\new install\ARM\ARMCC\Bin'
+Build target 'Template'
+compiling timer.c...
+..\HARDWARE\ROCKER\rocker.h(13): warning:  #1295-D: Deprecated declaration Get_rocker_xy - give arg types
+  void Get_rocker_xy();
+..\HARDWARE\POWER\power.h(11): warning:  #1295-D: Deprecated declaration Get_voltage - give arg types
+  u16 Get_voltage();
+..\HARDWARE\EC11\EC11.h(30): warning:  #1295-D: Deprecated declaration EC11_KEY1_click_do - give arg types
+  void EC11_KEY1_click_do();
+..\HARDWARE\EC11\EC11.h(31): warning:  #1295-D: Deprecated declaration EC11_KEY2_click_do - give arg types
+  void EC11_KEY2_click_do();
+..\HARDWARE\EC11\EC11.h(41): warning:  #1-D: last line of file ends without a newline
+   
+..\HARDWARE\TIMER\timer.c: 5 warnings, 0 errors
+compiling power.c...
+..\HARDWARE\POWER\power.h(11): warning:  #1295-D: Deprecated declaration Get_voltage - give arg types
+  u16 Get_voltage();
+..\HARDWARE\POWER\power.c(87): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\POWER\power.c: 2 warnings, 0 errors
+compiling main.c...
+..\HARDWARE\EC11\ec11.h(30): warning:  #1295-D: Deprecated declaration EC11_KEY1_click_do - give arg types
+  void EC11_KEY1_click_do();
+..\HARDWARE\EC11\ec11.h(31): warning:  #1295-D: Deprecated declaration EC11_KEY2_click_do - give arg types
+  void EC11_KEY2_click_do();
+..\HARDWARE\EC11\ec11.h(41): warning:  #1-D: last line of file ends without a newline
+   
+..\HARDWARE\POWER\power.h(11): warning:  #1295-D: Deprecated declaration Get_voltage - give arg types
+  u16 Get_voltage();
+..\HARDWARE\ROCKER\rocker.h(13): warning:  #1295-D: Deprecated declaration Get_rocker_xy - give arg types
+  void Get_rocker_xy();
+..\HARDWARE\TFCARD\tfcard.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(49): warning:  #111-D: statement is unreachable
+  	return 0;
+main.c: 7 warnings, 0 errors
+linking...
+Program Size: Code=17866 RO-data=8290 RW-data=68 ZI-data=2260  
+FromELF: creating hex file...
+"..\OBJ\Template.axf" - 0 Error(s), 14 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.0.pack
+                Keil.STM32F4xx_DFP.2.17.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Template
+  D:\keil\new install\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

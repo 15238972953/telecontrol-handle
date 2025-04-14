@@ -1,0 +1,65 @@
+..\obj\qr_num.o: ..\HARDWARE\QR_num\qr_num.c
+..\obj\qr_num.o: ..\HARDWARE\QR_num\qr_num.h
+..\obj\qr_num.o: ..\variable\variable.h
+..\obj\qr_num.o: ..\SYSTEM\sys\sys.h
+..\obj\qr_num.o: ..\USER\stm32f4xx.h
+..\obj\qr_num.o: ..\CORE\core_cm4.h
+..\obj\qr_num.o: D:\keil\new install\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\qr_num.o: ..\CORE\core_cmInstr.h
+..\obj\qr_num.o: ..\CORE\core_cmFunc.h
+..\obj\qr_num.o: ..\CORE\core_cm4_simd.h
+..\obj\qr_num.o: ..\USER\system_stm32f4xx.h
+..\obj\qr_num.o: ..\USER\stm32f4xx_conf.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_adc.h
+..\obj\qr_num.o: ..\USER\stm32f4xx.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_crc.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_dbgmcu.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_dma.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_exti.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_flash.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_gpio.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_i2c.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_iwdg.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_pwr.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_rcc.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_rtc.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_sdio.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_spi.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_syscfg.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_tim.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_usart.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_wwdg.h
+..\obj\qr_num.o: ..\FWLIB\inc\misc.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_cryp.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_hash.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_rng.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_can.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_dac.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
+..\obj\qr_num.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
+..\obj\qr_num.o: ..\SYSTEM\delay\delay.h
+..\obj\qr_num.o: ..\HARDWARE\LED\led.h
+..\obj\qr_num.o: ..\HARDWARE\switch\switch.h
+..\obj\qr_num.o: ..\HARDWARE\motor\motor.h
+..\obj\qr_num.o: ..\HARDWARE\motor_pwm\M_pwm.h
+..\obj\qr_num.o: ..\HARDWARE\encode\encode.h
+..\obj\qr_num.o: ..\HARDWARE\servo\servo.h
+..\obj\qr_num.o: ..\HARDWARE\key\key.h
+..\obj\qr_num.o: ..\HARDWARE\beep\beep.h
+..\obj\qr_num.o: ..\HARDWARE\oled\oled.h
+..\obj\qr_num.o: D:\keil\new install\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\qr_num.o: ..\HARDWARE\ultrasonic\ult.h
+..\obj\qr_num.o: ..\HARDWARE\Time\timer.h
+..\obj\qr_num.o: ..\HARDWARE\command\command.h
+..\obj\qr_num.o: ..\HARDWARE\JY901\JY901.h
+..\obj\qr_num.o: ..\HARDWARE\JY901\UART2.h
+..\obj\qr_num.o: D:\keil\new install\ARM\ARMCC\Bin\..\include\string.h
+..\obj\qr_num.o: D:\keil\new install\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\qr_num.o: ..\HARDWARE\PID\bsp_pid.h
+..\obj\qr_num.o: D:\keil\new install\ARM\ARMCC\Bin\..\include\math.h
+..\obj\qr_num.o: ..\HARDWARE\FILTER\filter.h
+..\obj\qr_num.o: ..\HARDWARE\JY901\UART1.h
+..\obj\qr_num.o: ..\HARDWARE\dictionary\dictionary.h
+..\obj\qr_num.o: ..\USER\main.h
+..\obj\qr_num.o: ..\HARDWARE\USART3\UART3.h
+..\obj\qr_num.o: ..\HARDWARE\USART4\UART4.h

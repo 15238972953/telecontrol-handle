@@ -1,0 +1,45 @@
+..\obj\dictionary.o: ..\HARDWARE\dictionary\dictionary.c
+..\obj\dictionary.o: D:\keil\new install\ARM\ARMCC\Bin\..\include\string.h
+..\obj\dictionary.o: D:\keil\new install\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\dictionary.o: ..\HARDWARE\JY901\UART1.h
+..\obj\dictionary.o: ..\HARDWARE\JY901\UART2.h
+..\obj\dictionary.o: ..\SYSTEM\delay\delay.h
+..\obj\dictionary.o: ..\SYSTEM\sys\sys.h
+..\obj\dictionary.o: ..\USER\stm32f4xx.h
+..\obj\dictionary.o: ..\CORE\core_cm4.h
+..\obj\dictionary.o: D:\keil\new install\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\dictionary.o: ..\CORE\core_cmInstr.h
+..\obj\dictionary.o: ..\CORE\core_cmFunc.h
+..\obj\dictionary.o: ..\CORE\core_cm4_simd.h
+..\obj\dictionary.o: ..\USER\system_stm32f4xx.h
+..\obj\dictionary.o: ..\USER\stm32f4xx_conf.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_adc.h
+..\obj\dictionary.o: ..\USER\stm32f4xx.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_crc.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_dbgmcu.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_dma.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_exti.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_flash.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_gpio.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_i2c.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_iwdg.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_pwr.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_rcc.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_rtc.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_sdio.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_spi.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_syscfg.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_tim.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_usart.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_wwdg.h
+..\obj\dictionary.o: ..\FWLIB\inc\misc.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_cryp.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_hash.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_rng.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_can.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_dac.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
+..\obj\dictionary.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
+..\obj\dictionary.o: ..\HARDWARE\JY901\JY901.h
+..\obj\dictionary.o: ..\HARDWARE\dictionary\dictionary.h
+..\obj\dictionary.o: ..\HARDWARE\FILTER\filter.h

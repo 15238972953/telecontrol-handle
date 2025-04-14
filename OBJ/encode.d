@@ -1,0 +1,64 @@
+..\obj\encode.o: ..\HARDWARE\encode\encode.c
+..\obj\encode.o: ..\HARDWARE\encode\encode.h
+..\obj\encode.o: ..\SYSTEM\sys\sys.h
+..\obj\encode.o: ..\USER\stm32f4xx.h
+..\obj\encode.o: ..\CORE\core_cm4.h
+..\obj\encode.o: D:\keil\new install\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\encode.o: ..\CORE\core_cmInstr.h
+..\obj\encode.o: ..\CORE\core_cmFunc.h
+..\obj\encode.o: ..\CORE\core_cm4_simd.h
+..\obj\encode.o: ..\USER\system_stm32f4xx.h
+..\obj\encode.o: ..\USER\stm32f4xx_conf.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_adc.h
+..\obj\encode.o: ..\USER\stm32f4xx.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_crc.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_dbgmcu.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_dma.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_exti.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_flash.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_gpio.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_i2c.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_iwdg.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_pwr.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_rcc.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_rtc.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_sdio.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_spi.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_syscfg.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_tim.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_usart.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_wwdg.h
+..\obj\encode.o: ..\FWLIB\inc\misc.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_cryp.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_hash.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_rng.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_can.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_dac.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
+..\obj\encode.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
+..\obj\encode.o: ..\variable\variable.h
+..\obj\encode.o: ..\SYSTEM\delay\delay.h
+..\obj\encode.o: ..\HARDWARE\LED\led.h
+..\obj\encode.o: ..\HARDWARE\switch\switch.h
+..\obj\encode.o: ..\HARDWARE\motor\motor.h
+..\obj\encode.o: ..\HARDWARE\motor_pwm\M_pwm.h
+..\obj\encode.o: ..\HARDWARE\servo\servo.h
+..\obj\encode.o: ..\HARDWARE\key\key.h
+..\obj\encode.o: ..\HARDWARE\beep\beep.h
+..\obj\encode.o: ..\HARDWARE\oled\oled.h
+..\obj\encode.o: D:\keil\new install\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\encode.o: ..\HARDWARE\ultrasonic\ult.h
+..\obj\encode.o: ..\HARDWARE\Time\timer.h
+..\obj\encode.o: ..\HARDWARE\command\command.h
+..\obj\encode.o: ..\HARDWARE\JY901\JY901.h
+..\obj\encode.o: ..\HARDWARE\JY901\UART2.h
+..\obj\encode.o: D:\keil\new install\ARM\ARMCC\Bin\..\include\string.h
+..\obj\encode.o: D:\keil\new install\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\encode.o: ..\HARDWARE\PID\bsp_pid.h
+..\obj\encode.o: D:\keil\new install\ARM\ARMCC\Bin\..\include\math.h
+..\obj\encode.o: ..\HARDWARE\FILTER\filter.h
+..\obj\encode.o: ..\HARDWARE\JY901\UART1.h
+..\obj\encode.o: ..\HARDWARE\dictionary\dictionary.h
+..\obj\encode.o: ..\USER\main.h
+..\obj\encode.o: ..\HARDWARE\USART3\UART3.h
+..\obj\encode.o: ..\HARDWARE\USART4\UART4.h
