@@ -1,11 +1,14 @@
-#include "jy62.h"
+#include <stdio.h>
+#include "misc.h"
+#include "UART1.h"
 
-static int8_t RxBuffer[11];
-static int RxCounter=0; 
-
-float roll,pitch,yaw;
-
-void MPU_UART1_init(unsigned long baudrate)
+char QR_code;
+static unsigned char TxBuffer[256];
+static unsigned char TxCounter=0;
+static unsigned char count=0; 
+extern void CopeSerial1Data(unsigned char ucData);
+volatile int stop_flag=0;
+void Initial_UART1(unsigned long baudrate)
 {
     //GPIO端口设置
   GPIO_InitTypeDef GPIO_InitStructure;
@@ -52,7 +55,7 @@ void MPU_UART1_init(unsigned long baudrate)
 
 void UART1_Put_Char(unsigned char DataToSend)
 {
-	RxBuffer[RxCounter++] = DataToSend;  
+	TxBuffer[count++] = DataToSend;  
   USART_ITConfig(USART1, USART_IT_TXE, ENABLE);  
 }
 
@@ -77,35 +80,42 @@ int fputc(int ch, FILE *f)
 
 void USART1_IRQHandler(void)//数据接收
 {
-	if(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET){
-
-		Data_process((unsigned char)USART1->DR);
-
+  
+	if(USART_GetITStatus(USART1, USART_IT_TXE) != RESET)
+  {   
+    USART_SendData(USART1, TxBuffer[TxCounter++]); 
+    if(TxCounter == count) 
+		{
+			USART_ITConfig(USART1, USART_IT_TXE, DISABLE);// 全部发送完成
+		}
+    USART_ClearITPendingBit(USART1, USART_IT_TXE); 
+  }
+	else if(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET)
+  {
+		stop_flag=USART_ReceiveData(USART1);
+//		CopeSerial1Data((unsigned char)USART1->DR);//处理数据
 		USART_ClearITPendingBit(USART1, USART_IT_RXNE);
   }
 	USART_ClearITPendingBit(USART1,USART_IT_ORE);
+
 }
 
-void Data_process(unsigned char data){
-	if(0x55 == data){
-		RxBuffer[0] = data;
-		RxCounter = 1;
-	}else if(0x53 == data){
-		RxBuffer[1] = data;
-		RxCounter = 2;
-	}else if(2 == RxCounter){
-		RxBuffer[RxCounter++] = data;
-	}else{
-		return;
-	}
-	
-	if(11 == RxCounter){
-		roll = ((RxBuffer[3]<<8)|RxBuffer[2])/32768*180;
-		pitch = ((RxBuffer[5]<<8)|RxBuffer[4])/32768*180;
-		yaw = ((RxBuffer[7]<<8)|RxBuffer[6])/32768*180;
-	}
-}
+//void USART1_IRQHandler(void)
+//{
+//	 char res;
 
-void show_angle(){
-	OLED_Show3FNum(80,10,yaw,4,2,8,1);
-}
+//    if(USART_GetITStatus(USART1,USART_IT_RXNE))
+//			{
+//        res=USART_ReceiveData(USART1);
+//			  QR_code=res;
+//			}
+//	USART_ClearITPendingBit(USART1,USART_IT_ORE);
+//}
+
+//获得二维码数据
+
+//void USART1_IRQHandler(void)//数据接收
+//{
+//if(USART_GetITStatus(USART1, USART_IT_TXE) != RESET)
+//	QR_code=USART_ReceiveData(USART1);
+//}

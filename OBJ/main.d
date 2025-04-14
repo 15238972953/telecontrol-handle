@@ -44,6 +44,8 @@
 ..\obj\main.o: D:\keil\new install\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\main.o: ..\HARDWARE\EC11\ec11.h
 ..\obj\main.o: ..\HARDWARE\JY62\jy62.h
+..\obj\main.o: D:\keil\new install\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\main.o: ..\HARDWARE\JY62\UART1.h
 ..\obj\main.o: ..\HARDWARE\POWER\power.h
 ..\obj\main.o: ..\HARDWARE\KALMAN\kalman.h
 ..\obj\main.o: ..\HARDWARE\ROCKER\rocker.h

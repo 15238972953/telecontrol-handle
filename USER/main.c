@@ -1,6 +1,6 @@
 #include "main.h"
 
-	u8 key=0,mode;
+u8 key=0,mode;
 
 int main(void)																																																																																																																																																																																																
 {
@@ -14,6 +14,7 @@ int main(void)
 	EC11_Init();
 	POWER_Init();
 	ROCKER_Init();
+	MPU_UART1_init(115200);
 	NRF24L01_Init();
 	TIM6_init(10-1,8400-1); //0.01s定时中断
 	TIM7_init(100-1,8400-1); //0.01s定时中断
@@ -23,6 +24,7 @@ int main(void)
 		key_value = KEY_Scan(0);
 		show_voltage(1);
 		show_rocker_xy(20,20,50,20);
+		//show_angle();
 		if(0!=key_value){
 			OLED_ShowNum(80,50,key_value,2,8,1);		
 		}

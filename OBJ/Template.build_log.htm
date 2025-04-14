@@ -27,24 +27,6 @@ Project File Date:  06/22/2024
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\keil\new install\ARM\ARMCC\Bin'
 Build target 'Template'
-compiling timer.c...
-..\HARDWARE\ROCKER\rocker.h(13): warning:  #1295-D: Deprecated declaration Get_rocker_xy - give arg types
-  void Get_rocker_xy();
-..\HARDWARE\POWER\power.h(11): warning:  #1295-D: Deprecated declaration Get_voltage - give arg types
-  u16 Get_voltage();
-..\HARDWARE\EC11\EC11.h(30): warning:  #1295-D: Deprecated declaration EC11_KEY1_click_do - give arg types
-  void EC11_KEY1_click_do();
-..\HARDWARE\EC11\EC11.h(31): warning:  #1295-D: Deprecated declaration EC11_KEY2_click_do - give arg types
-  void EC11_KEY2_click_do();
-..\HARDWARE\EC11\EC11.h(41): warning:  #1-D: last line of file ends without a newline
-   
-..\HARDWARE\TIMER\timer.c: 5 warnings, 0 errors
-compiling power.c...
-..\HARDWARE\POWER\power.h(11): warning:  #1295-D: Deprecated declaration Get_voltage - give arg types
-  u16 Get_voltage();
-..\HARDWARE\POWER\power.c(87): warning:  #1-D: last line of file ends without a newline
-  }
-..\HARDWARE\POWER\power.c: 2 warnings, 0 errors
 compiling main.c...
 ..\HARDWARE\EC11\ec11.h(30): warning:  #1295-D: Deprecated declaration EC11_KEY1_click_do - give arg types
   void EC11_KEY1_click_do();
@@ -52,19 +34,21 @@ compiling main.c...
   void EC11_KEY2_click_do();
 ..\HARDWARE\EC11\ec11.h(41): warning:  #1-D: last line of file ends without a newline
    
+..\HARDWARE\JY62\jy62.h(16): warning:  #1295-D: Deprecated declaration show_angle - give arg types
+  void show_angle();
 ..\HARDWARE\POWER\power.h(11): warning:  #1295-D: Deprecated declaration Get_voltage - give arg types
   u16 Get_voltage();
 ..\HARDWARE\ROCKER\rocker.h(13): warning:  #1295-D: Deprecated declaration Get_rocker_xy - give arg types
   void Get_rocker_xy();
 ..\HARDWARE\TFCARD\tfcard.h(6): warning:  #1-D: last line of file ends without a newline
   #endif
-main.c(49): warning:  #111-D: statement is unreachable
+main.c(51): warning:  #111-D: statement is unreachable
   	return 0;
-main.c: 7 warnings, 0 errors
+main.c: 8 warnings, 0 errors
 linking...
-Program Size: Code=17866 RO-data=8290 RW-data=68 ZI-data=2260  
+Program Size: Code=19586 RO-data=8290 RW-data=84 ZI-data=2268  
 FromELF: creating hex file...
-"..\OBJ\Template.axf" - 0 Error(s), 14 Warning(s).
+"..\OBJ\Template.axf" - 0 Error(s), 8 Warning(s).
 
 <h2>Software Packages used:</h2>
 
