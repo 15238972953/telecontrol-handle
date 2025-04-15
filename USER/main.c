@@ -7,14 +7,14 @@ int main(void)
 	//初始化
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);//中断优先级 初始化
 	delay_init(168);		   //初始化延时函数
-	LED_Init();				    //初始化LED端口
-	BEEP_Init();
+//	LED_Init();				    //初始化LED端口
+//	BEEP_Init();
 	KEY_Init();
 	OLED_Init();
 	EC11_Init();
 	POWER_Init();
 	ROCKER_Init();
-	MPU_UART1_init(115200);
+	//MPU_UART1_init(115200);
 	NRF24L01_Init();
 	TIM6_init(10-1,8400-1); //0.01s定时中断
 	TIM7_init(100-1,8400-1); //0.01s定时中断

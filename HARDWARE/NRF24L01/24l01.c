@@ -62,7 +62,7 @@ void NRF24L01_Init(void)
 		OLED_Refresh();
 		delay_ms(200);
 	}
-	OLED_ShowString(0,0,"NRF24L01 OK",8,1);
+	OLED_ShowString(0,0,"NRF_OK",8,1);
 	OLED_Refresh();
 	NRF24L01_TX_Mode();
 }

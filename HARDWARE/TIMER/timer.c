@@ -60,7 +60,6 @@ void TIM7_IRQHandler(void)                          //得到编码器素的和位置
 {
 	if(TIM_GetITStatus(TIM7,TIM_IT_Update)==SET){
 		OLED_ShowNum(0,10,EC11_Num1,3,8,1);
-
 //		show_rocker_xy(20,20,50,20);
 	}
 	TIM_ClearITPendingBit(TIM7,TIM_IT_Update);        //清除中断标志位

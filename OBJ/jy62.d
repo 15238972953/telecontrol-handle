@@ -37,6 +37,5 @@
 ..\obj\jy62.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\jy62.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 ..\obj\jy62.o: D:\keil\new install\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\jy62.o: ..\HARDWARE\JY62\UART1.h
 ..\obj\jy62.o: ..\HARDWARE\OLED\oled.h
 ..\obj\jy62.o: D:\keil\new install\ARM\ARMCC\Bin\..\include\stdlib.h
